@@ -1,0 +1,1 @@
+import re;print(sum(int(a)*int(b)for a,b in re.findall("l\((\d+),(\d+)\)",open(0).read())))
